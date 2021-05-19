@@ -1,5 +1,4 @@
 // models/Book.js
-// database model
 
 const mongoose = require('mongoose');
 
@@ -30,3 +29,5 @@ const BookSchema = new mongoose.Schema({
     default: Date.now
   }
 });
+
+module.exports = Book = mongoose.model('book', BookSchema);

@@ -1,6 +1,4 @@
-// routes/api/books.js
 
-// load express module, create an object and implement router
 const express = require('express');
 const router = express.Router();
 
